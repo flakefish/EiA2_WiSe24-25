@@ -2,8 +2,8 @@
 namespace zufallsgedicht {
 
     let subject: string[] = ["Artemis", "Hades", "Zagreus", "Cerberus", "Persephone", "Poseidon"];
-    let predicate: string[] = ["jagt", "hasst", "kuschelt", "füttert", "liebt", "sucht"];
-    let object: string[] = ["einen Wolf", "Hunde", "Katzen", "Schneeleoparden", " große Elefanten", "Robben"];
+    let predicate: string[] = ["jagt", "hasst", "kuschelt", "füttert", "spielt mit", "sucht nach"];
+    let object: string[] = ["zwei Wölfe", "Hunde", "Katzen", "Schneeleoparden", "große Elefanten", "Robben"];
     
     for (let i = subject.length; i >= 1; i--){
         let wort = console.log(getVerse(subject, predicate, object));
