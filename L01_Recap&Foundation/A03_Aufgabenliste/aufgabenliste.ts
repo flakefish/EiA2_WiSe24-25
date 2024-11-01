@@ -32,7 +32,7 @@ namespace Shoppinglist{
     
         if (checkInput) {
             checkInput.addEventListener("change", () => {
-                console.log("Die Aufgabe soll gekauft werden");
+                console.log("Die Aufgabe soll erfüllt werden");
             });
         }
     });
