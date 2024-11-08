@@ -7,9 +7,10 @@ var Shoppinglist;
         const dateInput = document.getElementById("date");
         const commentsInput = document.getElementById("comments");
         const checkInput = document.getElementById("check");
+        const checkTask = document.getElementById("addTask");
         if (taskInput) {
             taskInput.addEventListener("check", () => {
-                console.log("Aufgabe wurde hinzugefügt");
+                console.log("Aufgabe wurde abeschlossen");
             });
         }
         if (timeInput) {
@@ -29,7 +30,12 @@ var Shoppinglist;
         }
         if (checkInput) {
             checkInput.addEventListener("change", () => {
-                console.log("Die Aufgabe soll gekauft werden");
+                console.log("Die Aufgabe soll erfüllt werden");
+            });
+        }
+        if (checkTask) {
+            checkTask.addEventListener("addTask", () => {
+                console.log("Neue Aufgabe wird erstellt");
             });
         }
     });
